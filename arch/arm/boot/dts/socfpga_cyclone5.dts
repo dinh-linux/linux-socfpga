@@ -50,7 +50,7 @@
 
 		ethernet@ff702000 {
 			phy-mode = "rgmii";
-			phy-addr = <0xffffffff>; /* probe for phy addr */
+			snps,phy-addr = <0xffffffff>; /* probe for phy addr */
 			status = "okay";
 		};
 
